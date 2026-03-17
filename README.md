@@ -12,6 +12,9 @@ This project demonstrates foundational Docker skills by containerizing a Python 
 - Run and inspect a containerized web app
 - Apply Docker build best practices
 
+## Project Evolution
+- v1: Basic Flask app containerized with Docker
+
 ## Tech stack
 - Docker
 - Python 3.12
