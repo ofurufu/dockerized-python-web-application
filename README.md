@@ -1,3 +1,5 @@
+# Dockerized-Python-Web-App-From-Official-Image-to-Custom-Dockerfile
+
 # Dockerized Python Web App
 
 ## Project summary
@@ -12,6 +14,20 @@ This project demonstrates foundational Docker skills by containerizing a Python 
 
 ## Project Evolution
 - v1: Basic Flask app containerized with Docker
+
+## v2 Overview
+
+Version 2 introduces a bind-mounted Docker development workflow for the Flask application.
+
+### What changed in v2
+- continued using a custom Dockerfile for the Flask application
+- mounted the local project directory into the container using a bind mount
+- improved development workflow by allowing host-side code updates to be reflected inside the container
+- validated runtime behavior with Docker logs, inspect, and container shell access
+
+### v2 Build Command
+```bash
+docker build -t docker-mini-project:v2 .
 
 ## Tech stack
 - Docker
