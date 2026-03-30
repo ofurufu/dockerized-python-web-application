@@ -7,7 +7,7 @@ on:
       - main
 
 env:
-  IMAGE_NAME: yourdockerhubusername/dockerized-python-web-application
+  IMAGE_NAME: ofurufu/dockerized-python-web-application
 
 jobs:
   check:
